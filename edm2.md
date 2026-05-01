@@ -3,6 +3,6 @@
 This page contains work completed in EDM II.
 
 ## Projects
-- [EDM II Capstone Project-- Community Website] (edm2-capstone-nutrition.md)
+- [EDM II Capstone Project-- Community Website] (edm2-capstone-nutritionRosegold1.md)
 
 [Back to Home Page](README.md)
