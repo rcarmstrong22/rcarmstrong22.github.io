@@ -18,6 +18,13 @@ img {
     height: auto;      
 }
 
+.real-stories img {
+    float: right;
+    margin: 20px 0 20px 30px; /* top right bottom left */
+    width: 450px;
+    height: auto;
+  }
+
 section::after {
     content: "";
     display: block;
