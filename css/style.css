@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5fbfc;
+}
+
+.container {
+    max-width: 1000px;      
+    margin: 10px auto;     
+    padding: 0 10px; 
+}
+
+img {
+    float: right;
+    margin: 10px auto;     
+    width: 450px; 
+    height: auto;      
+}
+
+.real-stories img {
+    float: right;
+    margin: 20px 0 20px 30px; 
+    width: 450px;
+    height: auto;
+  }
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+p{
+    overflow-wrap: break-word;
+}
+
+h1 {
+    color: #4c934c;
+}
+
+h2 {
+    color: #14a06f;
+    margin: 10px 0;
+}
+
+h3 {
+    color:#14a06f 
+}
+
+nav {
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 12px;
+    font-weight: bold;
+    color: #14a06f
+}
+
+nav a:hover {
+    color: #cbd176;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    border: 3px solid #6b87a4;
+}
+
+.about-flex {
+    display: inline-flex;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1px solid #6b87a4
+
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+
+.about-flex img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #6b87a4; 
+    padding: 5px; 
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;   
+}
+
+.card {
+    flex: 1 1 220px;
+    padding: 20px;
+    border: 1px solid #6b87a4;
+    background-color: #f5fbfc;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1/3;
+    padding: 16px;
+    border: 1px solid #cccccc;
+}
+nav {
+    grid-column: 1/2;
+    padding: 16px;
+    border: 1px solid #cccccc;
+}
+main {
+    grid-column: 1/2;
+    padding: 16px;
+    border: 1px solid #cccccc;
+} 
+footer {
+    grid-column: 1/3;
+    padding: 16px;
+    border: 1px solid #cccccc;
+}
+@media (max-width: 768px) {
+    .grid-layout {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        grid-column: 1;
+    }
+
+    main {
+        grid-column: 1;
+    }
+    
+    body{
+        margin: 20px;
+    }
+
+    nav a {
+        display: flex;
+        justify-content:center;
+        gap: 24px;
+        padding: 16px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #cccccc;
+    }
+}
