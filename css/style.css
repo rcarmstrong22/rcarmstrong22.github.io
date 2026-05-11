@@ -173,4 +173,31 @@ footer {
         margin-bottom: 32px;
         border-bottom: 1px solid #cccccc;
     }
+
+    .nutrition-game {
+        background-color: #f4fff4;
+        padding: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .food-buttons button {
+        margin: 10px;
+        padding: 15px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .food-buttons button:hover {
+        transform: scale(1.1);
+    }
+    
+    #result {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
